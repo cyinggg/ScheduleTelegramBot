@@ -22,10 +22,8 @@ bot = telebot.TeleBot(BOT_TOKEN, parse_mode="Markdown")
 # ---------------------------
 # Target chat / topic
 # ---------------------------
-# CHAT_ID = -1002257320998
-# TOPIC_ID = 751
-CHAT_ID = -1002635519712
-TOPIC_ID = 434
+CHAT_ID = TelegramChatID
+TOPIC_ID = TelegramTopicID
 
 # ---------------------------
 # Timezone (Singapore)
@@ -202,3 +200,4 @@ if __name__ == "__main__":
     print("Auto-send: tomorrow's schedule at 17:50 SGT (Sat/Sun = CLOSED, Mon–Fri = normal)")
 
     bot.infinity_polling()
+
